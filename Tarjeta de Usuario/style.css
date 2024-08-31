@@ -1,0 +1,61 @@
+.contenedor {
+  height: 600px;
+  width: 700px;
+  margin: 10px;
+  border-color: rgb(199, 199, 199);
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgb(123, 123, 123);
+  display: flex;
+  flex-direction: column;
+}
+
+.barrasuperior {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgb(49, 141, 240);
+}
+
+.barrainferior {
+  margin-left: 20px;
+  position: relative; /*Subiremos barra inferior para evitar espacio en blanco al subir la imagen */
+  top: -90px;
+}
+
+.profile-data {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(93, 93, 93);
+  margin: 0px;
+}
+
+.profile-data h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(60, 60, 60);
+}
+
+.profile-data p {
+  margin-right: 10px;
+  line-height: 130%;
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  border-width: 5px;
+  margin: 0px;
+  position: relative;
+  top: -80px; /*Subimos la imagen para que quede el efecto como si estuviera entre ambas barras o contenedores*/
+  left: 10px;
+}
+
+.button1 {
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: rgb(228, 228, 228);
+}

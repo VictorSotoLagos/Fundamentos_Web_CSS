@@ -1,0 +1,31 @@
+.contenedor {
+    margin: 30px 40px;
+}
+
+input
+
+.button1 {
+    border-color: black;
+    border-radius: 50%;
+}
+
+button[type="button1"] {
+    border: 2px solid black;
+    border-width: 3px;    
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgb(212, 212, 212);
+}
+
+button[type="button2"] {
+    font-size: 22px;
+    font-style: bold;
+    margin: 15px 25px;
+    border: 0px;
+    border-radius: 50%;
+    padding: 15px 22px;
+    background-color: rgb(238, 103, 7);
+    color: white;
+    display: block;
+
+}
